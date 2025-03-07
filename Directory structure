@@ -1,18 +1,21 @@
 moodle/
- └── mod/
-      └── cameracapture/
-           ├── version.php
-           ├── index.php
-           ├── view.php
-           ├── lib.php
-           ├── db/
-           │    ├── install.xml
-           │    └── upgrade.php
-           ├── classes/
-           │    └── ... (PHP classes, e.g., external API classes, etc.)
-           ├── backup/
-           │    └── ... (if you want backup/restore)
-           ├── lang/
-           │    └── en/
-           │         └── cameracapture.php
-           └── other needed files
+└── mod/
+    └── photoupload/
+        ├── classes/
+        │    └── external/
+        │         └── ajax.php
+        ├── db/
+        │    ├── access.php
+        │    └── install.xml
+        ├── lang/
+        │    └── en/
+        │         └── photoupload.php
+        ├── pix/
+        │    └── icon.svg          (An icon of your choice)
+        ├── index.php
+        ├── lib.php
+        ├── locallib.php
+        ├── mod_form.php
+        ├── ajax.php
+        ├── view.php
+        ├── version.php
